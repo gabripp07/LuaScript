@@ -1,0 +1,16 @@
+local destinationPlaceId = 4750077588 -- ID dell'esperienza
+
+local Players = game:GetService("Players")
+local TeleportService = game:GetService("TeleportService")
+
+local function teleportPlayersToExperience()
+    local playerList = Players:GetPlayers()
+    local playerCount = #playerList
+
+
+    for _, player in ipairs(playerList) do
+        TeleportService:Teleport(destinationPlaceId, player)
+    end
+end
+
+teleportPlayersToExperience()

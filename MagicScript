@@ -1,4 +1,4 @@
-local destinationPlaceId = 10645520735 -- ID dell'esperienza
+local destinationPlaceId = 4750077588 -- ID dell'esperienza
 
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
